@@ -17,7 +17,7 @@ const initialRegion = {
   longitudeDelta: 2.0,
 };
 
-"AIzaSyCXk-YdEKxJc9bJHjUHu6pWozyZiGWoTWc"; 
+const GOOGLE_MAPS_APIKEY = "AIzaSyCXk-YdEKxJc9bJHjUHu6pWozyZiGWoTWc";
 
 export default function App() {
   const [startLocation, setStartLocation] = useState<Location | null>(null);
